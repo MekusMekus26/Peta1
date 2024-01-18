@@ -1,0 +1,74 @@
+body{
+  background:burlywood;
+ 
+  
+}
+h1{
+  background-color:bisque;
+  font-size: 5vh;
+  border-radius: 1.5vh;
+  padding:1vh;
+  border:.5vh solid #daa520;
+  animation-name: slidedown;
+  animation-duration: 4s;
+}
+h3{
+background-color:bisque;
+  font-size: 3vh;
+  border-radius: 1.5vh;
+  padding:1vh;
+  border:.5vh solid #daa520;
+  animation-name: slideright;
+  animation-duration: 5s;
+}
+#res{
+  animation-name: slideright;
+  animation-duration: 5s;
+}
+#E{
+  
+  
+}
+#S{
+  
+}
+#E2{
+  
+  
+}
+#A{
+  
+}
+#R2{
+  
+}
+#C{
+  
+}
+#H{}
+@keyframes slideright{
+  from{transform: translateX(-100px)}
+}
+@keyframes slidedown{
+  from{transform:translateY(-100px)}
+}
+h2{
+background-color:bisque;
+  font-size: 4vh;
+  border-radius: 1.5vh;
+  padding:1vh;
+  border:.5vh solid #daa520;
+  float:left;
+  animation-name: slideright;
+  animation-duration: 5s;
+} 
+p{
+  
+animation-name: slideright;
+  animation-duration: 5s;
+background-color:bisque;
+  font-size: 4vh;
+  border-radius: 1.5vh;
+  padding:1vh;
+  border:.5vh solid #daa520;
+  float:left;}
